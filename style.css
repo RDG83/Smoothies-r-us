@@ -56,3 +56,7 @@ body {
     background: var(--light);
     color: var(--dark);
 }
+
+img {
+    width: 800px;
+}
