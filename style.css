@@ -60,3 +60,12 @@ body {
 img {
     width: 800px;
 }
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    text-align: center;
+}
