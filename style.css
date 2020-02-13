@@ -56,8 +56,11 @@ li a:hover {
 
   .cover-btn {
       height: 10%;
-      border-radius: 50%;
+      border-radius: 5%;
       border: none;
+      font-size: large;
+      color: #EEE;
+      background-color: #56B870;
   }
 
 
