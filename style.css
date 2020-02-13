@@ -46,6 +46,21 @@ li a:hover {
     }
   }
 
+  .cover-container {
+    display: flex;      
+    height: 60vh;
+    background-image: url(./images/blender.jpeg);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cover-btn {
+      height: 10%;
+      border-radius: 50%;
+      border: none;
+  }
+
+
 .zone:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
