@@ -49,10 +49,13 @@ li a:hover {
   /* COVER SECTION */
   .cover-container {
     display: flex;      
-    height: 60vh;
+    height: 80vh;
     background-image: url(./images/blender.jpeg);
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   .cover-btn {
@@ -82,6 +85,16 @@ li a:hover {
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.bottom-box {
+    text-align: center;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
